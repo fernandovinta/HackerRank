@@ -1,0 +1,7 @@
+import sys
+
+i = []
+for line in sys.stdin:
+    i.append(int(line))
+    
+print((i[0] ** i[1]) + (i[2] ** i[3]))
